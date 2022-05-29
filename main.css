@@ -17,6 +17,8 @@
   margin: 0;
   font-family: "Red Hat Display", sans-serif;
   font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5rem;
 }
 
 body {
@@ -27,13 +29,16 @@ body {
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 
 p {
   color: var(--desaturated);
   font-size: 1rem;
-  font-weight: 500;
+}
+
+.font-small {
+  font-size: 0.85rem;
 }
 
 .text-dark {
@@ -62,7 +67,7 @@ p {
 
 .card {
   background: var(--white);
-  width: 25rem;
+  width: 27rem;
   height: fit-content;
   overflow: hidden;
   border-radius: 1rem;
@@ -77,19 +82,24 @@ p {
 }
 
 .text-area {
-  padding: 2rem;
+  padding: 2.5rem 2.7rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1.6rem;
+}
+
+.description {
+  /* padding: 0 1rem; */
+  max-width: 19rem;
 }
 
 .pricing-area {
   background: var(--veryPale);
-  width: 90%;
-  padding: 0.9rem;
+  width: 100%;
   border-radius: 0.5rem;
-  gap: 1rem;
+  padding: 1.2rem;
+  gap: 1.2rem;
 }
 
 .change-button {
@@ -102,8 +112,8 @@ p {
   background: var(--bright);
   color: var(--white);
   border: none;
-  width: 90%;
+  width: 100%;
   padding: 0.9rem;
   border-radius: 0.5rem;
-  box-shadow: 0 1rem 2.6rem -0.8rem hsl(245 75% 52% / 75%);
+  box-shadow: 0 1rem 2.6rem -0.8rem hsl(245 75% 52% / 60%);
 }
