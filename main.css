@@ -69,6 +69,11 @@ p {
   display: flex;
   flex-direction: column;
   text-align: center;
+  box-shadow: 0 2.5rem 2rem -1rem rgb(128 128 128 / 17%);
+}
+
+.card-image {
+  /* width: 100%; */
 }
 
 .text-area {
@@ -100,4 +105,5 @@ p {
   width: 90%;
   padding: 0.9rem;
   border-radius: 0.5rem;
+  box-shadow: 0 1rem 2.6rem -0.8rem hsl(245 75% 52% / 75%);
 }
