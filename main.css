@@ -38,7 +38,7 @@ p {
 }
 
 .font-small {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
 }
 
 .text-dark {
@@ -67,7 +67,7 @@ p {
 
 .card {
   background: var(--white);
-  width: 27rem;
+  width: 27.5rem;
   height: fit-content;
   overflow: hidden;
   border-radius: 1rem;
