@@ -67,7 +67,7 @@ p {
 
 .card {
   background: var(--white);
-  width: 27.5rem;
+  width: clamp(21rem, 70vw, 27.5rem);
   height: fit-content;
   overflow: hidden;
   border-radius: 1rem;
@@ -82,7 +82,7 @@ p {
 }
 
 .text-area {
-  padding: 2.5rem 2.7rem;
+  padding: 2.5rem 2.8rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -98,7 +98,7 @@ p {
   background: var(--veryPale);
   width: 100%;
   border-radius: 0.5rem;
-  padding: 1.2rem;
+  padding: 1.3rem;
   gap: 1.2rem;
 }
 
