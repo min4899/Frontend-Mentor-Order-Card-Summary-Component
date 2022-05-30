@@ -29,7 +29,7 @@ body {
 }
 
 h1 {
-  font-size: 1.75rem;
+  font-size: clamp(1.45rem, 5vw, 1.75rem);
 }
 
 p {
