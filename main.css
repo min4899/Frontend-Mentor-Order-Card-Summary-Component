@@ -67,7 +67,7 @@ p {
 
 .card {
   background: var(--white);
-  width: clamp(21rem, 80vw, 27.5rem);
+  width: clamp(21.5rem, 80vw, 27.5rem);
   height: fit-content;
   overflow: hidden;
   border-radius: 1rem;
@@ -82,7 +82,7 @@ p {
 }
 
 .text-area {
-  padding: 2.5rem 2.8rem;
+  padding: 2.5rem clamp(1.35rem, 5.5vw, 2.8rem);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -96,9 +96,13 @@ p {
 .pricing-area {
   background: var(--veryPale);
   width: 100%;
-  border-radius: 0.5rem;
-  padding: 1.3rem;
+  border-radius: 0.75rem;
+  padding: clamp(1rem, 4vw, 1.3rem);
   gap: 1.2rem;
+}
+
+.music-icon {
+  width: 3.25em;
 }
 
 .change-button {
@@ -113,6 +117,6 @@ p {
   border: none;
   width: 100%;
   padding: 0.9rem;
-  border-radius: 0.5rem;
+  border-radius: 0.75rem;
   box-shadow: 0 1rem 2.6rem -0.8rem hsl(245 75% 52% / 60%);
 }
