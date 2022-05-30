@@ -67,7 +67,7 @@ p {
 
 .card {
   background: var(--white);
-  width: clamp(21rem, 70vw, 27.5rem);
+  width: clamp(21rem, 80vw, 27.5rem);
   height: fit-content;
   overflow: hidden;
   border-radius: 1rem;
@@ -90,8 +90,7 @@ p {
 }
 
 .description {
-  /* padding: 0 1rem; */
-  max-width: 19rem;
+  width: clamp(16.45rem, 40vw, 19rem);
 }
 
 .pricing-area {
