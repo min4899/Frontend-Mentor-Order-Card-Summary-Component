@@ -37,6 +37,10 @@ p {
   font-size: 1rem;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .text-dark {
   color: var(--dark);
 }
@@ -86,7 +90,7 @@ p {
 }
 
 .description {
-  width: clamp(16.45rem, 40vw, 19rem);
+  max-width: clamp(16.45rem, 40vw, 19rem);
 }
 
 .pricing-area {
@@ -117,6 +121,10 @@ p {
 
 .cancel-button {
   font-size: 0.9rem;
+}
+
+.cancel-button:hover {
+  color: var(--dark);
 }
 
 @media (max-width: 425px) {
