@@ -37,10 +37,6 @@ p {
   font-size: 1rem;
 }
 
-.font-small {
-  font-size: 0.9rem;
-}
-
 .text-dark {
   color: var(--dark);
 }
@@ -101,14 +97,11 @@ p {
   gap: 1.2rem;
 }
 
-.music-icon {
-  width: 3.25em;
-}
-
 .change-button {
   text-decoration: underline;
   margin-left: auto;
   color: var(--bright);
+  font-size: 0.9rem;
 }
 
 .payment-button {
@@ -119,4 +112,23 @@ p {
   padding: 0.9rem;
   border-radius: 0.75rem;
   box-shadow: 0 1rem 2.6rem -0.8rem hsl(245 75% 52% / 60%);
+  font-size: 0.9rem;
+}
+
+.cancel-button {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 425px) {
+  .music-icon {
+    width: 3.25em;
+  }
+
+  .payment-button {
+    font-size: 1rem;
+  }
+
+  .cancel-button {
+    font-size: 1rem;
+  }
 }
