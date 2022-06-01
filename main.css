@@ -90,7 +90,6 @@ p {
 
 .text-area {
   text-align: center;
-  /* padding: 2.5rem clamp(1.35rem, 5.5vw, 2.8rem) 2rem;  */
   padding: clamp(2.5rem, 8vw, 3rem) clamp(1.35rem, 5.5vw, 2.8rem) clamp(2rem, 8vw, 2.5rem);
   gap: 1.6rem;
 }
