@@ -22,12 +22,12 @@
 }
 
 body {
-  background-image: url("images/pattern-background-desktop.svg");
-  background-repeat: repeat-x;
-  background-color: var(--pale);
   display: grid;
   place-items: center;
   height: 100vh;
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: repeat-x;
+  background-color: var(--pale);
 }
 
 @media (max-width: 768px) {
@@ -76,22 +76,19 @@ p {
 }
 
 .card {
-  background: var(--white);
-  width: clamp(21.5rem, 80vw, 27.5rem);
-  height: fit-content;
-  overflow: hidden;
-  border-radius: 1rem;
   display: flex;
   flex-direction: column;
-  text-align: center;
+  overflow: hidden;
+  width: clamp(21.5rem, 80vw, 27.5rem);
+  height: fit-content;
+  background: var(--white);
+  border-radius: 1rem;
   box-shadow: 0 2.5rem 2rem -1rem rgb(128 128 128 / 17%);
 }
 
 .text-area {
+  text-align: center;
   padding: 2.5rem clamp(1.35rem, 5.5vw, 2.8rem);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   gap: 1.6rem;
 }
 
