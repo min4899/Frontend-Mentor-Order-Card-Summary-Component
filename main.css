@@ -87,10 +87,6 @@ p {
   box-shadow: 0 2.5rem 2rem -1rem rgb(128 128 128 / 17%);
 }
 
-.card-image {
-  /* width: 100%; */
-}
-
 .text-area {
   padding: 2.5rem clamp(1.35rem, 5.5vw, 2.8rem);
   display: flex;
