@@ -76,6 +76,7 @@ p {
 }
 
 .card {
+  z-index: 1;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -151,4 +152,12 @@ p {
   .cancel-button {
     font-size: 1rem;
   }
+}
+
+.attribution {
+  z-index: 0;
+  position: absolute;
+  bottom: 1rem;
+  text-align: center;
+  color: var(--dark);
 }
