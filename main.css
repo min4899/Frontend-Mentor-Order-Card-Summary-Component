@@ -108,6 +108,11 @@ p {
   font-size: 0.9rem;
 }
 
+.change-button:hover {
+  color: hsl(245 75% 52% / 75%);
+  text-decoration: none;
+}
+
 .payment-button {
   background: var(--bright);
   color: var(--white);
@@ -117,6 +122,10 @@ p {
   border-radius: 0.75rem;
   box-shadow: 0 1rem 2.6rem -0.8rem hsl(245 75% 52% / 60%);
   font-size: 0.9rem;
+}
+
+.payment-button:hover {
+  background: hsl(245 75% 52% / 75%);
 }
 
 .cancel-button {
