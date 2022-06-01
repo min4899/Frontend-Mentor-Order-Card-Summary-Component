@@ -22,10 +22,20 @@
 }
 
 body {
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: repeat-x;
   background-color: var(--pale);
   display: grid;
   place-items: center;
   height: 100vh;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: url("images/pattern-background-mobile.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
 }
 
 h1 {
