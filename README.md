@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/min4899/Frontend-Mentor-Order-Card-Summary-Component)
-- Live Site URL: [GitHub Pages](https://min4899.github.io/Frontend-Mentor-Order-Card-Summary-Component/)
+- Solution URL: [GitHub](https://github.com/min4899/Frontend-Mentor-Order-Summary-Card-Component)
+- Live Site URL: [GitHub Pages](https://min4899.github.io/Frontend-Mentor-Order-Summary-Card-Component/)
 
 ## My process
 
